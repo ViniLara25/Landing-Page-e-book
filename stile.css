@@ -232,12 +232,18 @@ button:hover {
 .titulo {
   padding: 3px;
   text-align: center;
-  background:  rgba(233, 218, 230, 0.384);
-  color: rgb(58, 38, 54);
+  background: #f6f2eb;
+  color: #2f2f2f;
+  border: 1px solid #e5dccd;
+  border-radius: 20px;
   margin: -20px auto 10px auto;
   border-radius: 50px;
   font-size: clamp(14px, 1vw, 20px);
   text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .texto-beneficios {
@@ -262,4 +268,10 @@ hr {
   transform: translateX(-8vw);
   object-fit: cover;
   object-position: center top;
+  -webkit-mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
+  mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
+} .imagem-chamativa img {
+  border-radius: 20px;
+  -webkit-mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
+  mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
 }
