@@ -9,7 +9,7 @@
 
 /* 3. Comportamento base da página */
 html, body {
-  width: 100vw;
+  width: 100%;
 }
 
 html {
@@ -139,16 +139,13 @@ button {
   font-weight: 400;
   letter-spacing: 1px;
   background: #f6f2eb;
-  /*begesuave*/color: #2f2f2f;
+  color: #2f2f2f;
   border: 1px solid #e5dccd;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.75s ease;
-  -webkit-transition: all 0.75s ease;
-  -moz-transition: all 0.75s ease;
-  -ms-transition: all 0.75s ease;
-  -o-transition: all 0.75s ease;
 }
+
 button:hover {
   background: #c9a66b;
   color: white;
