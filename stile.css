@@ -44,10 +44,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   width: 99%;
   margin: auto;
-  background: #fffffeb0;
+  background: #e4d8c49a;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -57,6 +57,7 @@ header {
 .LE{
   margin: auto;
   padding: 7px 1px;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
 }
 
 .topo {
@@ -76,13 +77,16 @@ header {
   #b08a5a 80%, 
   transparent);
   position: relative;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 h3{
-  font-weight: 400;
-  font-size: clamp(14px, 1vw, 20px);
-  color: #6b6b6b;
+    z-index: 0;
+    font-weight: 450;
+    font-size: clamp(14px, 1vw, 20px);
+    color: #413d3d;
+    margin-top: 10px;
+    opacity: 1;
 }
 
 .dividir::after {
@@ -123,10 +127,12 @@ h3{
 
 h2{
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-weight: 450;
   font-size: clamp(14px, 2.5vw, 26px);
   line-height: 1.4;
-  text-indent: 20px;
+  text-indent: 12px;
+  word-spacing: 2px;
+  margin-top: 5px;
 }
 
 button {
@@ -155,9 +161,27 @@ button:hover {
 }
 
 .LD {
-  margin: auto;
-  padding: 7px 1px;
-  width: 101%;
+  z-index: 2;
+  margin: 0;
+  height: 200px;
+  opacity: 0.65;
+  -webkit-mask-image: radial-gradient(circle,     rgba(0,0,0,1) 80%,     rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(circle,     rgba(0,0,0,1) 80%,     rgba(0,0,0,0) 100%);
+  transform: translateX(-6vw);
+  display: flex;
+  justify-content: center;
+  width: 137%;
+}
+
+.LD img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  -webkit-mask-image: radial-gradient(circle,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(circle,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%);
+  border-radius: 10px;
+    width: clamp(350px, 40vw, 600px);
 }
 
 /*Início Section especifico*/
@@ -177,7 +201,7 @@ button:hover {
 
 .beneficios {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   align-items: center;
   justify-content: center;
   padding: 5px;
@@ -188,6 +212,7 @@ button:hover {
   text-align: center;
   background: rgba(233, 218, 230, 0.5);
   color: rgb(58, 38, 54);
+  margin: 10px;
 }
 
 .texto-beneficios {
@@ -201,5 +226,10 @@ hr {
   background-color: rgb(184, 160, 179);
   border: none;
   height: 1px;
-  width: 100%;
+  width: 90%;
+}
+
+.imagem-chamativa {
+  opacity: 0.7;
+  border-radius: 50px;
 }
