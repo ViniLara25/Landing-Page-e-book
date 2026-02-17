@@ -132,7 +132,7 @@ h2{
 button {
   grid-column: 1 / -1;
   justify-self: center;
-  margin: 7px;
+  margin: 7px auto 10px auto;
   width: 50vw;
   font-family: 'Source Sans 3', sans-serif;
   font-size: 15px;
@@ -169,7 +169,37 @@ button:hover {
   justify-content: center; /* centraliza vertical */
   text-align: center;
   padding: 10px 20px;
-  background-color: rgba(233, 218, 230, 0.603);
+  background-color: rgba(233, 218, 230, 0.5);
   font-size: clamp(30px, 2vw, 26px);
 }
 
+/*Início Section beneficios*/
+
+.beneficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.titulo {
+  padding: 3px;
+  text-align: center;
+  background: rgba(233, 218, 230, 0.5);
+  color: rgb(58, 38, 54);
+}
+
+.texto-beneficios {
+  font-size: clamp(10.5px, 2vw, 26px);
+  color: rgb(41, 23, 37);
+  padding: 15px;
+  margin: 5px;
+}
+
+hr {
+  background-color: rgb(184, 160, 179);
+  border: none;
+  height: 1px;
+  width: 100%;
+}
