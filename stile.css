@@ -1,14 +1,17 @@
 @charset "UTF-8";
 
 /* 1. Box sizing, 2. Limpeza de Espaços */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 /* 3. Comportamento base da página */
-html, body {
+html,
+body {
   width: 100%;
 }
 
@@ -19,24 +22,37 @@ html {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   color: #3a3a3a;
   letter-spacing: 0.1px;
 }
 
 /* 4. Melhorias em elementos de mídia */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   max-width: 100%;
   display: block;
 }
 
 /* 5. Herdando estilos de fonte em formulários */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* 6. Evitando estouro de texto */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
@@ -45,7 +61,7 @@ p, h1, h2, h3, h4, h5, h6 {
 header {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 99%;
+  width: 100%;
   margin: auto;
   background: #e4d8c49a;
   text-align: center;
@@ -54,39 +70,41 @@ header {
   justify-items: center;
 }
 
-.LE{
+.LE {
   margin: auto;
   padding: 7px 1px;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
 }
 
 .topo {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 500;
   font-size: clamp(16px, 4vw, 44px);
   line-height: 1.2;
   letter-spacing: 0.5px;
 }
 
-.dividir, .dividir-2 {
-  width: 100%;
+.dividir,
+.dividir-2 {
+  width: 80%;
   height: 1px;
-  background: linear-gradient(to right, 
-  transparent, 
-  #b08a5a 20%, 
-  #b08a5a 80%, 
-  transparent);
+  background: linear-gradient(
+    to right,
+    transparent,
+    #b08a5a 20%,
+    #b08a5a 80%,
+    transparent
+  );
   position: relative;
   margin: 10px auto;
 }
 
-h3{
-    z-index: 0;
-    font-weight: 450;
-    font-size: clamp(14px, 1vw, 20px);
-    color: #413d3d;
-    margin-top: 10px;
-    opacity: 1;
+h3 {
+  z-index: 0;
+  font-weight: 450;
+  font-size: clamp(14px, 1vw, 20px);
+  color: #2c2a2a;
+  margin-top: 10px;
 }
 
 .dividir::after {
@@ -100,7 +118,6 @@ h3{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .sparkle {
   display: grid;
@@ -125,8 +142,8 @@ h3{
   margin-top: -2px;
 }
 
-h2{
-  font-family: 'Playfair Display', serif;
+h2 {
+  font-family: "Playfair Display", serif;
   font-weight: 450;
   font-size: clamp(14px, 2.5vw, 26px);
   line-height: 1.4;
@@ -140,7 +157,7 @@ button {
   justify-self: center;
   margin: 7px auto 10px auto;
   width: 50vw;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -157,20 +174,19 @@ button:hover {
   color: white;
   border-color: #c9a66b;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .LD {
-  z-index: 2;
   margin: 0;
   height: 200px;
-  opacity: 0.65;
-  -webkit-mask-image: radial-gradient(circle,     rgba(0,0,0,1) 80%,     rgba(0,0,0,0) 100%);
-  mask-image: radial-gradient(circle,     rgba(0,0,0,1) 80%,     rgba(0,0,0,0) 100%);
-  transform: translateX(-6vw);
+  opacity: 0.6;
+  -webkit-mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
+  mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
+  transform: translateX(-4vw);
   display: flex;
   justify-content: center;
-  width: 137%;
+  width: 121%;
 }
 
 .LD img {
@@ -178,10 +194,10 @@ button:hover {
   height: 100%;
   object-fit: cover;
   object-position: center top;
-  -webkit-mask-image: radial-gradient(circle,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%);
-  mask-image: radial-gradient(circle,rgba(0,0,0,1) 60%,rgba(0,0,0,0) 100%);
-  border-radius: 10px;
-    width: clamp(350px, 40vw, 600px);
+  -webkit-mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 60%,    rgba(0, 0, 0, 0) 100%  );
+  mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 60%,    rgba(0, 0, 0, 0) 100%  );
+  border-radius: 20px;
+  width: clamp(350px, 40vw, 600px);
 }
 
 /*Início Section especifico*/
@@ -189,36 +205,45 @@ button:hover {
 .especifico {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* centraliza horizontal */
+  align-items: center; /* centraliza horizontal */
   justify-content: center; /* centraliza vertical */
   text-align: center;
-  padding: 10px 20px;
-  background-color: rgba(233, 218, 230, 0.5);
-  font-size: clamp(30px, 2vw, 26px);
+  padding: 0 20px;
+  background-color: rgba(233, 218, 230, 0.384);
+} .especifico h3 {
+  font-size: clamp(14px, 1vw, 20px);
+  color: #2c2a2a;
+  font-weight: 450;
+} .dividir-2 {
+  margin-bottom: -1px;
 }
 
 /*Início Section beneficios*/
 
 .beneficios {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.8fr 1fr;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 0 5px;
+  background: #e4d8c49a;
 }
 
 .titulo {
   padding: 3px;
   text-align: center;
-  background: rgba(233, 218, 230, 0.5);
+  background:  rgba(233, 218, 230, 0.384);
   color: rgb(58, 38, 54);
-  margin: 10px;
+  margin: -20px auto 10px auto;
+  border-radius: 50px;
+  font-size: clamp(14px, 1vw, 20px);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
 }
 
 .texto-beneficios {
-  font-size: clamp(10.5px, 2vw, 26px);
+  font-size: clamp(12px, 2vw, 26px);
   color: rgb(41, 23, 37);
-  padding: 15px;
+  padding: 25px;
   margin: 5px;
 }
 
@@ -230,6 +255,11 @@ hr {
 }
 
 .imagem-chamativa {
-  opacity: 0.7;
-  border-radius: 50px;
+  opacity: 0.65;
+  border-radius: 10px;
+  margin: auto;
+  width: 125%;
+  transform: translateX(-8vw);
+  object-fit: cover;
+  object-position: center top;
 }
