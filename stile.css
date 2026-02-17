@@ -45,7 +45,7 @@ p, h1, h2, h3, h4, h5, h6 {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 98vw;
+  width: 99%;
   margin: auto;
   background: #fffffeb0;
   text-align: center;
@@ -67,7 +67,7 @@ header {
   letter-spacing: 0.5px;
 }
 
-.divider {
+.dividir, .dividir-2 {
   width: 100%;
   height: 1px;
   background: linear-gradient(to right, 
@@ -85,7 +85,7 @@ h3{
   color: #6b6b6b;
 }
 
-.divider::after {
+.dividir::after {
   content: "";
   width: 5px;
   height: 5px;
@@ -132,7 +132,7 @@ h2{
 button {
   grid-column: 1 / -1;
   justify-self: center;
-  margin-top: 7px;
+  margin: 7px;
   width: 50vw;
   font-family: 'Source Sans 3', sans-serif;
   font-size: 15px;
@@ -160,4 +160,19 @@ button:hover {
 .LD {
   margin: auto;
   padding: 7px 1px;
+  width: 101%;
 }
+
+/*Início Section especifico*/
+
+.especifico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centraliza horizontal */
+  justify-content: center; /* centraliza vertical */
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgba(233, 218, 230, 0.603);
+  font-size: clamp(30px, 2vw, 26px);
+}
+
