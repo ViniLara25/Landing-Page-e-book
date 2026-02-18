@@ -56,6 +56,12 @@ h6 {
   overflow-wrap: break-word;
 }
 
+a {
+  text-decoration: none;  /* tira o sublinhado */
+  color: inherit;         /* usa a cor do elemento pai */
+}
+
+
 /*Seletores Universais Acima.*/
 
 header {
@@ -177,7 +183,7 @@ h2 {
   transition: all 0.75s ease;
 }
 
-button:hover {
+.btn-compra:hover {
   background: #c9a66b;
   color: white;
   border-color: #c9a66b;
