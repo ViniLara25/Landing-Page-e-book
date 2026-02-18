@@ -79,7 +79,7 @@ header {
 .topo {
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: clamp(16px, 4vw, 44px);
+  font-size: clamp(18px, 4vw, 44px);
   line-height: 1.2;
   letter-spacing: 0.5px;
 }
@@ -97,6 +97,14 @@ header {
   );
   position: relative;
   margin: 15px auto;
+}
+
+.leve {
+  font-size: 12px;
+  font-style: italic;
+  display: inline-block;
+  transform: scaleX(1.05);
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -256,7 +264,7 @@ hr {
 }
 
 .imagem-chamativa {
-  opacity: 0.65;
+  opacity: 0.75;
   border-radius: 10px;
   margin: auto;
   width: 125%;
