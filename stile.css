@@ -191,10 +191,10 @@ button:hover {
   opacity: 0.6;
   -webkit-mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
   mask-image: radial-gradient(    circle,    rgba(0, 0, 0, 1) 80%,    rgba(0, 0, 0, 0) 100%  );
-  transform: translateX(-4vw);
+  transform: translateX(-2vw);
   display: flex;
   justify-content: center;
-  width: 121%;
+  width: 109%;
 }
 
 .LD img {
