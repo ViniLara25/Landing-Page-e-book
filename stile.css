@@ -182,7 +182,7 @@ h2 {
   transition: all 0.75s ease;
 }
 
-.btn-compra, .btn-compra-2:hover {
+.btn-compra:hover {
   background: #c9a66b;
   color: white;
   border-color: #c9a66b;
@@ -484,6 +484,7 @@ hr {
   border: 1px solid #e5dccd;
   background: linear-gradient(to bottom, #ffffff, #f6f2eb);
   box-shadow: 0 18px 45px rgba(0,0,0,0.06);
+  margin-top: -20px;
 }
 
 .footer-oferta .tag-oferta{
@@ -549,7 +550,7 @@ hr {
   border-top: 1px solid #e5dccd;
   font-size: 12px;
   letter-spacing: 1px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 /* mobile */
