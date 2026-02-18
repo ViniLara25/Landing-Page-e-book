@@ -168,13 +168,13 @@ h2 {
 .btn-compra {
   grid-column: 1 / -1;
   justify-self: center;
-  margin: 7px auto 10px auto;
-  width: 50vw;
+  margin: 8px auto 10px auto;
+  width: 50%;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
-  background: #f6f2eb;
+  background: linear-gradient(to bottom, #ffffff, #f6f2eb);
   color: #2f2f2f;
   border: 1px solid #e5dccd;
   border-radius: 50px;
@@ -539,7 +539,7 @@ hr {
   padding: 10px 20px;
   border-radius: 999px;
   border: 1px solid #e5dccd;
-  background: #f6f2eb;
+  background: linear-gradient(to bottom, #ffffff, #f6f2eb);
   color: #2f2f2f;
   cursor: pointer;
   letter-spacing: 1px;
@@ -567,7 +567,7 @@ hr {
   border-top: 1px solid #e5dccd;
   font-size: 12px;
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin: 20px auto -20px auto;
 }
 
 /* mobile */
