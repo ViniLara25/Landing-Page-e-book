@@ -261,9 +261,9 @@ h2 {
   margin: 5px;
 }
 
-.texto-beneficios p a .btn-compra {
+.texto-beneficios p a {
   padding: 4px;
-  margin-top: -5px;
+  margin-top: -15px;
 }
 
 hr {
