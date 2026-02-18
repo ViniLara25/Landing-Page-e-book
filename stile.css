@@ -277,6 +277,7 @@ h2 {
 .texto-beneficios p a {
   padding: 4px;
   margin-top: -15px;
+  position: absolute;
 }
 
 hr {
