@@ -261,6 +261,11 @@ h2 {
   margin: 5px;
 }
 
+.texto-beneficios p a .btn-compra {
+  padding: 4px;
+  margin-top: -5px;
+}
+
 hr {
   background-color: rgb(184, 160, 179);
   border: none;
