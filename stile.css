@@ -255,7 +255,7 @@ h2 {
   text-shadow: 0 2px 12px rgba(0,0,0,0.18);
 }
 
-.texto-beneficios .btn-beneficios {
+a .btn-beneficios {
   padding: 3px;
   text-align: center;
   color: #2f2f2f;
@@ -272,12 +272,6 @@ h2 {
   color: rgb(41, 23, 37);
   padding: 25px;
   margin: 5px;
-}
-
-.texto-beneficios p a {
-  padding: 4px;
-  margin-top: -15px;
-  position: absolute;
 }
 
 hr {
