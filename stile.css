@@ -539,7 +539,7 @@ hr {
   padding: 10px 20px;
   border-radius: 999px;
   border: 1px solid #e5dccd;
-  background: linear-gradient(to bottom, #ffffff, #f6f2eb);
+  background: linear-gradient(to bottom, #f3e39bda, #f6f2eb);
   color: #2f2f2f;
   cursor: pointer;
   letter-spacing: 1px;
