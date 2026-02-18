@@ -165,7 +165,8 @@ h2 {
   margin-top: 5px;
 }
 
-.btn-compra {
+.btn-compra,
+.btn-compra-2 {
   grid-column: 1 / -1;
   justify-self: center;
   margin: 7px auto 10px auto;
@@ -182,7 +183,7 @@ h2 {
   transition: all 0.75s ease;
 }
 
-.btn-compra:hover {
+.btn-compra, .btn-compra-2:hover {
   background: #c9a66b;
   color: white;
   border-color: #c9a66b;
