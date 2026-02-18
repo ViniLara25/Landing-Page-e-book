@@ -182,8 +182,8 @@ h2 {
   transition: all 0.75s ease;
 }
 
-.btn-compra:hover, 
-.texto-beneficios .btn-beneficios:hover {
+.btn-compra:hover,
+.btn-beneficios:hover {
   background: #c9a66b;
   color: white;
   border-color: #c9a66b;
@@ -243,7 +243,7 @@ h2 {
   background: #e4d8c49a;
 }
 
-.btn-compra {
+.btn-compra, .btn-beneficios {
   padding: 3px;
   text-align: center;
   color: #2f2f2f;
@@ -253,16 +253,19 @@ h2 {
   border-radius: 40px;
   font-size: clamp(12.8px, 1vw, 20px);
   text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  cursor: pointer;
+  transition: all 0.75s ease;
 }
 
-a .btn-beneficios {
+.btn-beneficios {
   padding: 3px;
   text-align: center;
   background: linear-gradient(to bottom, #ffffff, #f6f2eb);
   color: #2f2f2f;
   border: 1px solid #e5dccd;
   border-radius: 20px;
-  margin: 20px auto 10px auto;
+  margin: -30px auto 10px auto;
+  position: absolute;
   border-radius: 40px;
   font-size: clamp(12.8px, 1vw, 20px);
   text-shadow: 0 2px 12px rgba(0,0,0,0.18);
@@ -272,7 +275,7 @@ a .btn-beneficios {
   font-size: clamp(12px, 2vw, 26px);
   color: rgb(41, 23, 37);
   padding: 25px;
-  margin: 5px;
+  margin: 10px auto -10px auto;
 }
 
 hr {
