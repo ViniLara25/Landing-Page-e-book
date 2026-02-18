@@ -569,3 +569,12 @@ hr {
   100%{ transform: scale(1); }
 }
 
+.btn-comprar {
+  display: inline-block;
+  background: #b08a5a;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
