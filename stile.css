@@ -165,8 +165,7 @@ h2 {
   margin-top: 5px;
 }
 
-.btn-compra,
-.btn-compra-2 {
+.btn-compra {
   grid-column: 1 / -1;
   justify-self: center;
   margin: 7px auto 10px auto;
