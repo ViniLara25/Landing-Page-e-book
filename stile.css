@@ -182,7 +182,7 @@ h2 {
   transition: all 0.75s ease;
 }
 
-.btn-compra:hover {
+.btn-compra, .btn-beneficios:hover {
   background: #c9a66b;
   color: white;
   border-color: #c9a66b;
@@ -243,6 +243,18 @@ h2 {
 }
 
 .btn-compra {
+  padding: 3px;
+  text-align: center;
+  color: #2f2f2f;
+  border: 1px solid #e5dccd;
+  border-radius: 20px;
+  margin: -20px auto 10px auto;
+  border-radius: 40px;
+  font-size: clamp(12.8px, 1vw, 20px);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+
+.btn-beneficios {
   padding: 3px;
   text-align: center;
   color: #2f2f2f;
@@ -479,7 +491,7 @@ hr {
 
 /* oferta */
 .preco {
-  margin-top: -30px;
+  margin-top: -10px;
 }
 
 .footer-oferta .preco{
@@ -489,7 +501,7 @@ hr {
   border: 1px solid #e5dccd;
   background: linear-gradient(to bottom, #ffffff, #f6f2eb);
   box-shadow: 0 18px 45px rgba(0,0,0,0.06);
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 .footer-oferta .tag-oferta{
@@ -524,7 +536,7 @@ hr {
 
 /* botão */
 .footer-oferta .ultimo{
-  padding: 14px 34px;
+  padding: 10px 20px;
   border-radius: 999px;
   border: 1px solid #e5dccd;
   background: #f6f2eb;
